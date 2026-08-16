@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePhantom | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #0b0f19;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #111827, #1f2937);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 2px solid #06b6d4;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: #06b6d4;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.1rem;
+            color: #9ca3af;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #38bdf8;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #1f2937;
+            padding-bottom: 10px;
+        }
+        .about-card, .project-card {
+            background-color: #1f2937;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #374151;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .project-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .project-card h3 {
+            color: #f3f4f6;
+            margin-bottom: 10px;
+        }
+        .project-card p {
+            color: #9ca3af;
+            font-size: 0.95rem;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #1f2937, #111827);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #06b6d4;
+        }
+        .contact-box p {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #06b6d4;
+            color: #0b0f19;
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #38bdf8;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #090d16;
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CodePhantom</h1>
+        <p>The Digital Alchemist | Programmer & Creator</p>
+    </header>
+
+    <div class="container">
+        <!-- نبذة عني -->
+        <section>
+            <h2>من أنا؟</h2>
+            <div class="about-card">
+                <p>أنا مبرمج ومطور برمجيات، متخصص في بناء الأكواد وحل المشكلات وتطوير التطبيقات بمهارة عالية. هدفى تحويل الأفكار إلى واقع برمجي رقمي احترافي.</p>
+            </div>
+        </section>
+
+        <!-- المشاريع -->
+        <section>
+            <h2>معرض أعمالي ومشاريعي</h2>
+            <div class="projects-grid">
+                <!-- Calculate The age -->
+                <div class="project-card">
+                    <img src="project1" alt="Project 1">
+                    <h3>Calculate The age</h3>
+                    <p>لقطة من أعمال التطوير والتطبيقات الرقمية.</p>
+                </div>
+                <!-- School Manager -->
+                <div class="project-card">
+                    <h3>School Manager</h3>
+		    <img src="project2(1)" alt="Project 2-1">
+                    <img src="project2(2)" alt="Project 2-2">
+                    <img src="project2(3)" alt="Project 2-3">
+                    <img src="project2(4)" alt="Project 2-4">
+                    <p>عرض تفصيلي لأكواد وهيكلة البرمجيات.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- تواصل معي -->
+        <section>
+            <h2>تواصل معي</h2>
+            <div class="contact-box">
+                <p>هل لديك مشروع أو فكرة تريد تنفيذها؟ ابعتلي فوراً عبر الواتساب!</p>
+                <a href="https://wa.me/201067171407?text=Hello%20CodePhantom,%20I%20have%20a%20project%20for%20you!" target="_blank" class="btn">راسلني عبر الواتساب</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 CodePhantom</p>
+    </footer>
+
+</body>
+</html>
